@@ -23,6 +23,7 @@ app.use(express.json({ extended: false }));
 app.use(express.json());
 
 // app.post API
+app.post("/test", require("./routes/inserts"));
 
 // app.get API
 
